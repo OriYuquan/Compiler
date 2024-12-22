@@ -1,0 +1,2026 @@
+.bss 
+.balign 4
+a:
+.zero 4000000
+.type a, @object
+/* end data a */
+
+.bss 
+.balign 4
+b:
+.zero 4000000
+.type b, @object
+/* end data b */
+
+.bss 
+.balign 4
+c:
+.zero 4000000
+.type c, @object
+/* end data c */
+
+.data 
+.balign 4
+MAX:
+    .word 2147483647
+.type MAX, @object
+/* end data MAX */
+
+.text
+.global main
+main:
+    addi sp, sp, -96
+    sd s4, 8(sp)
+    sd s7, 16(sp)
+    sd s8, 24(sp)
+    sd s3, 32(sp)
+    sd s9, 40(sp)
+    sd s10, 48(sp)
+    sd s6, 64(sp)
+    sd s5, 72(sp)
+    sd s2, 80(sp)
+    sd s11, 56(sp)
+    sd ra, 88(sp)
+.L1:
+    li s11, 0
+    j .L20
+.L3:
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s10, a0
+    li a5, 1000
+    beq s10, a5, .L5
+.L4:
+    mv a0, s10
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L5:
+    addiw s10, s11, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L7
+.L6:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L7:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L9
+.L8:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L9:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L11
+.L10:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L11:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L13
+.L12:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L13:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L15
+.L14:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L15:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L17
+.L16:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L17:
+    addiw s10, s10, 1
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add a0, a4, t5
+    call getarray
+    mv s9, a0
+    li a5, 1000
+    beq s9, a5, .L19
+.L18:
+    mv a0, s9
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.L19:
+    addiw s11, s10, 1
+.L20:
+    li a5, 1000
+    blt s11, a5, .L3
+.L21:
+    li a0, 0
+    call _sysy_starttime
+    li s11, 0
+    j .L47
+.L22:
+    li s10, 0
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L229
+    j .L25
+.L23:
+    sext.w t5, s10
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, a
+    add t4, a4, t4
+    add t4, t4, s8
+    lw t4, 0(t4)
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s7, t5
+    sw t4, 0(t5)
+    addiw s10, s10, 1
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L23
+    j .L25
+.L229:
+    sext.w t5, s11
+    li a5, 4
+    mul s8, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add s7, a4, t5
+    j .L23
+.L25:
+    addiw s10, s11, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L231
+    j .L28
+.L26:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, a
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s5, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L26
+    j .L28
+.L231:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add s5, a4, t4
+    j .L26
+.L28:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L233
+    j .L31
+.L29:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, a
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s5, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L29
+    j .L31
+.L233:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add s5, a4, t5
+    j .L29
+.L31:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L235
+    j .L34
+.L32:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, a
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s5, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L32
+    j .L34
+.L235:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add s5, a4, t4
+    j .L32
+.L34:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L237
+    j .L37
+.L35:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, a
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s5, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L35
+    j .L37
+.L237:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add s5, a4, t5
+    j .L35
+.L37:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L239
+    j .L40
+.L38:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, a
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s5, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L38
+    j .L40
+.L239:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add s5, a4, t4
+    j .L38
+.L40:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L241
+    j .L43
+.L41:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, a
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s5, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L41
+    j .L43
+.L241:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add s5, a4, t5
+    j .L41
+.L43:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L243
+    j .L46
+.L44:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, a
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s5, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L44
+    j .L46
+.L243:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add s5, a4, t4
+    j .L44
+.L46:
+    addiw s11, s10, 1
+.L47:
+    li a5, 1000
+    blt s11, a5, .L22
+.L48:
+    li s11, 0
+    j .L98
+.L49:
+    li s10, 0
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L245
+    j .L55
+.L50:
+    li s5, 0
+    li s4, 0
+    li a5, 1000
+    slt s3, s5, a5
+    bnez s3, .L247
+    j .L53
+.L51:
+    sext.w t5, s5
+    li a5, 4
+    mul t4, t5, a5
+    add t4, s8, t4
+    lw t4, 0(t4)
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add t5, a4, t5
+    add t5, t5, s2
+    lw t5, 0(t5)
+    mulw t4, t4, t5
+    addw s4, s4, t4
+    addiw s5, s5, 1
+    li a5, 1000
+    slt s3, s5, a5
+    bnez s3, .L51
+    j .L53
+.L247:
+    sext.w t5, s10
+    li a5, 4
+    mul s2, t5, a5
+    j .L51
+.L53:
+    sext.w t4, s10
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s7, t4
+    sw s4, 0(t4)
+    addiw s10, s10, 1
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L50
+    j .L55
+.L245:
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add s8, a4, t5
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s7, a4, t5
+    j .L50
+.L55:
+    addiw s10, s11, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L249
+    j .L61
+.L56:
+    li s5, 0
+    li s3, 0
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L251
+    j .L59
+.L57:
+    sext.w t4, s5
+    li a5, 4
+    mul t5, t4, a5
+    add t5, s7, t5
+    lw t5, 0(t5)
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add t4, a4, t4
+    add t4, t4, s6
+    lw t4, 0(t4)
+    mulw t5, t5, t4
+    addw s3, s3, t5
+    addiw s5, s5, 1
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L57
+    j .L59
+.L251:
+    sext.w t4, s9
+    li a5, 4
+    mul s6, t4, a5
+    j .L57
+.L59:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s3, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L56
+    j .L61
+.L249:
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, a
+    add s7, a4, t4
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L56
+.L61:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L253
+    j .L67
+.L62:
+    li s3, 0
+    li s5, 0
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L255
+    j .L65
+.L63:
+    sext.w t5, s3
+    li a5, 4
+    mul t4, t5, a5
+    add t4, s7, t4
+    lw t4, 0(t4)
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add t5, a4, t5
+    add t5, t5, s6
+    lw t5, 0(t5)
+    mulw t4, t4, t5
+    addw s5, s5, t4
+    addiw s3, s3, 1
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L63
+    j .L65
+.L255:
+    sext.w t5, s9
+    li a5, 4
+    mul s6, t5, a5
+    j .L63
+.L65:
+    sext.w t4, s9
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw s5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L62
+    j .L67
+.L253:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add s7, a4, t5
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L62
+.L67:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L257
+    j .L73
+.L68:
+    li s5, 0
+    li s3, 0
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L259
+    j .L71
+.L69:
+    sext.w t4, s5
+    li a5, 4
+    mul t5, t4, a5
+    add t5, s7, t5
+    lw t5, 0(t5)
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add t4, a4, t4
+    add t4, t4, s6
+    lw t4, 0(t4)
+    mulw t5, t5, t4
+    addw s3, s3, t5
+    addiw s5, s5, 1
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L69
+    j .L71
+.L259:
+    sext.w t4, s9
+    li a5, 4
+    mul s6, t4, a5
+    j .L69
+.L71:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s3, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L68
+    j .L73
+.L257:
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, a
+    add s7, a4, t4
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L68
+.L73:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L261
+    j .L79
+.L74:
+    li s3, 0
+    li s5, 0
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L263
+    j .L77
+.L75:
+    sext.w t5, s5
+    li a5, 4
+    mul t4, t5, a5
+    add t4, s7, t4
+    lw t4, 0(t4)
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add t5, a4, t5
+    add t5, t5, s6
+    lw t5, 0(t5)
+    mulw t4, t4, t5
+    addw s3, s3, t4
+    addiw s5, s5, 1
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L75
+    j .L77
+.L263:
+    sext.w t5, s9
+    li a5, 4
+    mul s6, t5, a5
+    j .L75
+.L77:
+    sext.w t4, s9
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw s3, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L74
+    j .L79
+.L261:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add s7, a4, t5
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L74
+.L79:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L265
+    j .L85
+.L80:
+    li s3, 0
+    li s5, 0
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L267
+    j .L83
+.L81:
+    sext.w t4, s3
+    li a5, 4
+    mul t5, t4, a5
+    add t5, s7, t5
+    lw t5, 0(t5)
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add t4, a4, t4
+    add t4, t4, s6
+    lw t4, 0(t4)
+    mulw t5, t5, t4
+    addw s5, s5, t5
+    addiw s3, s3, 1
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L81
+    j .L83
+.L267:
+    sext.w t4, s9
+    li a5, 4
+    mul s6, t4, a5
+    j .L81
+.L83:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s5, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L80
+    j .L85
+.L265:
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, a
+    add s7, a4, t4
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L80
+.L85:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L269
+    j .L91
+.L86:
+    li s5, 0
+    li s3, 0
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L271
+    j .L89
+.L87:
+    sext.w t5, s3
+    li a5, 4
+    mul t4, t5, a5
+    add t4, s7, t4
+    lw t4, 0(t4)
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, b
+    add t5, a4, t5
+    add t5, t5, s6
+    lw t5, 0(t5)
+    mulw t4, t4, t5
+    addw s5, s5, t4
+    addiw s3, s3, 1
+    li a5, 1000
+    slt s2, s3, a5
+    bnez s2, .L87
+    j .L89
+.L271:
+    sext.w t5, s9
+    li a5, 4
+    mul s6, t5, a5
+    j .L87
+.L89:
+    sext.w t4, s9
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw s5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L86
+    j .L91
+.L269:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, a
+    add s7, a4, t5
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L86
+.L91:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L273
+    j .L97
+.L92:
+    li s5, 0
+    li s3, 0
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L275
+    j .L95
+.L93:
+    sext.w t4, s5
+    li a5, 4
+    mul t5, t4, a5
+    add t5, s7, t5
+    lw t5, 0(t5)
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, b
+    add t4, a4, t4
+    add t4, t4, s6
+    lw t4, 0(t4)
+    mulw t5, t5, t4
+    addw s3, s3, t5
+    addiw s5, s5, 1
+    li a5, 1000
+    slt s2, s5, a5
+    bnez s2, .L93
+    j .L95
+.L275:
+    sext.w t4, s9
+    li a5, 4
+    mul s6, t4, a5
+    j .L93
+.L95:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s3, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L92
+    j .L97
+.L273:
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, a
+    add s7, a4, t4
+    sext.w t4, s10
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L92
+.L97:
+    addiw s11, s10, 1
+.L98:
+    li a5, 1000
+    blt s11, a5, .L49
+.L99:
+    li s11, 0
+    j .L165
+.L100:
+    lui a5, %hi(MAX)
+    lw s10, %lo(MAX)(a5)
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L277
+    j .L105
+.L101:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add s4, s7, t5
+    lw t5, 0(s4)
+    blt t5, s10, .L102
+.L221:
+    mv s4, s10
+    j .L103
+.L102:
+    lw s4, 0(s4)
+.L103:
+    addiw s9, s9, 1
+    mv s10, s4
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L101
+    j .L105
+.L277:
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s7, a4, t5
+    j .L101
+.L105:
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L279
+    j .L108
+.L106:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s7, t5
+    sw s10, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L106
+    j .L108
+.L279:
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s7, a4, t5
+    j .L106
+.L108:
+    addiw s10, s11, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L281
+    j .L113
+.L109:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L110
+.L222:
+    mv s3, s9
+    j .L111
+.L110:
+    lw s3, 0(s3)
+.L111:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L109
+    j .L113
+.L281:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L109
+.L113:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L283
+    j .L116
+.L114:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L114
+    j .L116
+.L283:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L114
+.L116:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L285
+    j .L121
+.L117:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L118
+.L223:
+    mv s3, s9
+    j .L119
+.L118:
+    lw s3, 0(s3)
+.L119:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L117
+    j .L121
+.L285:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L117
+.L121:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L287
+    j .L124
+.L122:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L122
+    j .L124
+.L287:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L122
+.L124:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L289
+    j .L129
+.L125:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L126
+.L224:
+    mv s3, s9
+    j .L127
+.L126:
+    lw s3, 0(s3)
+.L127:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L125
+    j .L129
+.L289:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L125
+.L129:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L291
+    j .L132
+.L130:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L130
+    j .L132
+.L291:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L130
+.L132:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L293
+    j .L137
+.L133:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L134
+.L225:
+    mv s3, s9
+    j .L135
+.L134:
+    lw s3, 0(s3)
+.L135:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L133
+    j .L137
+.L293:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L133
+.L137:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L295
+    j .L140
+.L138:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L138
+    j .L140
+.L295:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L138
+.L140:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L297
+    j .L145
+.L141:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L142
+.L226:
+    mv s3, s9
+    j .L143
+.L142:
+    lw s3, 0(s3)
+.L143:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L141
+    j .L145
+.L297:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L141
+.L145:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L299
+    j .L148
+.L146:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L146
+    j .L148
+.L299:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L146
+.L148:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L301
+    j .L153
+.L149:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L150
+.L227:
+    mv s3, s9
+    j .L151
+.L150:
+    lw s3, 0(s3)
+.L151:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L149
+    j .L153
+.L301:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L149
+.L153:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L303
+    j .L156
+.L154:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L154
+    j .L156
+.L303:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L154
+.L156:
+    addiw s10, s10, 1
+    lui a5, %hi(MAX)
+    lw s9, %lo(MAX)(a5)
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L305
+    j .L161
+.L157:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add s3, s4, t5
+    lw t5, 0(s3)
+    blt t5, s9, .L158
+.L228:
+    mv s3, s9
+    j .L159
+.L158:
+    lw s3, 0(s3)
+.L159:
+    addiw s8, s8, 1
+    mv s9, s3
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L157
+    j .L161
+.L305:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L157
+.L161:
+    li s8, 0
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L307
+    j .L164
+.L162:
+    sext.w t5, s8
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw s9, 0(t5)
+    addiw s8, s8, 1
+    li a5, 1000
+    slt s7, s8, a5
+    bnez s7, .L162
+    j .L164
+.L307:
+    sext.w t5, s10
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L162
+.L164:
+    addiw s11, s10, 1
+.L165:
+    li a5, 1000
+    blt s11, a5, .L100
+.L166:
+    li s11, 0
+    j .L192
+.L167:
+    li s10, 0
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L309
+    j .L170
+.L168:
+    sext.w t5, s10
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, c
+    add t4, a4, t4
+    add t4, t4, s8
+    lw t4, 0(t4)
+    negw t4, t4
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s7, t5
+    sw t4, 0(t5)
+    addiw s10, s10, 1
+    li a5, 1000
+    slt s9, s10, a5
+    bnez s9, .L168
+    j .L170
+.L309:
+    sext.w t5, s11
+    li a5, 4
+    mul s8, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s7, a4, t5
+    j .L168
+.L170:
+    addiw s10, s11, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L311
+    j .L173
+.L171:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, c
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    negw t5, t5
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L171
+    j .L173
+.L311:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L171
+.L173:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L313
+    j .L176
+.L174:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, c
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    negw t4, t4
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L174
+    j .L176
+.L313:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L174
+.L176:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L315
+    j .L179
+.L177:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, c
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    negw t5, t5
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L177
+    j .L179
+.L315:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L177
+.L179:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L317
+    j .L182
+.L180:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, c
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    negw t4, t4
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L180
+    j .L182
+.L317:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L180
+.L182:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L319
+    j .L185
+.L183:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, c
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    negw t5, t5
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L183
+    j .L185
+.L319:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L183
+.L185:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L321
+    j .L188
+.L186:
+    sext.w t5, s9
+    li a5, 4000
+    mul t4, t5, a5
+    la a4, c
+    add t4, a4, t4
+    add t4, t4, s7
+    lw t4, 0(t4)
+    negw t4, t4
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    sw t4, 0(t5)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L186
+    j .L188
+.L321:
+    sext.w t5, s10
+    li a5, 4
+    mul s7, t5, a5
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L186
+.L188:
+    addiw s10, s10, 1
+    li s9, 0
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L323
+    j .L191
+.L189:
+    sext.w t4, s9
+    li a5, 4000
+    mul t5, t4, a5
+    la a4, c
+    add t5, a4, t5
+    add t5, t5, s7
+    lw t5, 0(t5)
+    negw t5, t5
+    li a5, 4
+    mul t4, t4, a5
+    add t4, s4, t4
+    sw t5, 0(t4)
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s8, s9, a5
+    bnez s8, .L189
+    j .L191
+.L323:
+    sext.w t4, s10
+    li a5, 4
+    mul s7, t4, a5
+    li a5, 4000
+    mul t4, t4, a5
+    la a4, c
+    add s4, a4, t4
+    j .L189
+.L191:
+    addiw s11, s10, 1
+.L192:
+    li a5, 1000
+    blt s11, a5, .L167
+.L193:
+    li s11, 0
+    li s10, 0
+    j .L219
+.L194:
+    li s9, 0
+    mv s8, s10
+    li a5, 1000
+    slt s7, s9, a5
+    bnez s7, .L325
+    j .L197
+.L195:
+    sext.w t5, s9
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s4, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s9, s9, 1
+    li a5, 1000
+    slt s7, s9, a5
+    bnez s7, .L195
+    j .L197
+.L325:
+    sext.w t5, s11
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s4, a4, t5
+    j .L195
+.L197:
+    addiw s9, s11, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L327
+    j .L200
+.L198:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L198
+    j .L200
+.L327:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L198
+.L200:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L329
+    j .L203
+.L201:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L201
+    j .L203
+.L329:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L201
+.L203:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L331
+    j .L206
+.L204:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L204
+    j .L206
+.L331:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L204
+.L206:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L333
+    j .L209
+.L207:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L207
+    j .L209
+.L333:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L207
+.L209:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L335
+    j .L212
+.L210:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L210
+    j .L212
+.L335:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L210
+.L212:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L337
+    j .L215
+.L213:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L213
+    j .L215
+.L337:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L213
+.L215:
+    addiw s9, s9, 1
+    li s7, 0
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L339
+    j .L218
+.L216:
+    sext.w t5, s7
+    li a5, 4
+    mul t5, t5, a5
+    add t5, s3, t5
+    lw t5, 0(t5)
+    addw s8, s8, t5
+    addiw s7, s7, 1
+    li a5, 1000
+    slt s4, s7, a5
+    bnez s4, .L216
+    j .L218
+.L339:
+    sext.w t5, s9
+    li a5, 4000
+    mul t5, t5, a5
+    la a4, c
+    add s3, a4, t5
+    j .L216
+.L218:
+    addiw s11, s9, 1
+    mv s10, s8
+.L219:
+    li a5, 1000
+    blt s11, a5, .L194
+.L220:
+    li a0, 0
+    call _sysy_stoptime
+    mv a0, s10
+    call putint
+    li a0, 0
+    ld s4, 8(sp)
+    ld s7, 16(sp)
+    ld s8, 24(sp)
+    ld s3, 32(sp)
+    ld s9, 40(sp)
+    ld s10, 48(sp)
+    ld s6, 64(sp)
+    ld s5, 72(sp)
+    ld s2, 80(sp)
+    ld s11, 56(sp)
+    ld ra, 88(sp)
+    addi sp, sp, 96
+    jr ra
+.type main, @function
+.size main, .-main
+/* end function main */
+
+.section .note.GNU-stack,"",@progbits

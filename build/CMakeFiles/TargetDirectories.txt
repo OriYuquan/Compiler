@@ -1,0 +1,3 @@
+/workData/T202410006203374-422/build/CMakeFiles/main.dir
+/workData/T202410006203374-422/build/CMakeFiles/edit_cache.dir
+/workData/T202410006203374-422/build/CMakeFiles/rebuild_cache.dir
