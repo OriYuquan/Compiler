@@ -1,25 +1,60 @@
 #include "opt/pass/simplify_cfg.h"
 #include <algorithm>
 #include <unordered_set>
+#include <queue>
 
 namespace opt {
 
+// bool EmptyBlockRemovalPass::run_on_function(ir::Function &func) {
+//     _block_replacement.clear();
+//     for (auto block = func.start; block; block = block->next) {
+//         switch (block->jump.type) {
+//         case ir::Jump::JMP:
+//             block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
+//             break;
+//         case ir::Jump::JNZ:
+//             block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
+//             block->jump.blk[1] = _get_replacement(block->jump.blk[1]);
+//             break;
+//         case ir::Jump::RET:
+//             break;
+//         default:
+//             throw std::logic_error("invalid jump type");
+//         }
+//     }
+
+//     return _changed;
+// }
+
+//Plan2
 bool EmptyBlockRemovalPass::run_on_function(ir::Function &func) {
+    std::vector<ir::BlockPtr> empty_blocks;
     _block_replacement.clear();
+    
     for (auto block = func.start; block; block = block->next) {
-        switch (block->jump.type) {
-        case ir::Jump::JMP:
-            block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
-            break;
-        case ir::Jump::JNZ:
-            block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
-            block->jump.blk[1] = _get_replacement(block->jump.blk[1]);
-            break;
-        case ir::Jump::RET:
-            break;
-        default:
-            throw std::logic_error("invalid jump type");
+        if (block->phis.empty() && block->insts.empty()) {
+            empty_blocks.push_back(block);
+        } else {
+            switch (block->jump.type) {
+            case ir::Jump::JMP:
+                // 直接替换跳转目标
+                block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
+                break;
+            case ir::Jump::JNZ:
+                block->jump.blk[0] = _get_replacement(block->jump.blk[0]);
+                block->jump.blk[1] = _get_replacement(block->jump.blk[1]);
+                break;
+            case ir::Jump::RET:
+                break;
+            default:
+                throw std::logic_error("invalid jump type");
+            }
         }
+    }
+
+    // 合并和删除收集到的空块
+    for (auto block : empty_blocks) {
+        // 进行处理，可能需要的逻辑来清除指向这些空块的边
     }
 
     return _changed;
@@ -71,10 +106,38 @@ bool UnreachableBlockRemovalPass::run_on_function(ir::Function &func) {
     return changed;
 }
 
-std::unordered_set<ir::BlockPtr>
-UnreachableBlockRemovalPass::_find_reachable_blocks(const ir::Function &func) {
-    std::unordered_set<ir::BlockPtr> reachable = {func.start};
-    _find_reachable_blocks(*func.start, reachable);
+//Plan3 bfs instead of dfs
+std::unordered_set<ir::BlockPtr> UnreachableBlockRemovalPass::_find_reachable_blocks(const ir::Function &func) {
+    std::unordered_set<ir::BlockPtr> reachable;
+    std::queue<ir::BlockPtr> to_visit;
+
+    to_visit.push(func.start);
+    reachable.insert(func.start);
+
+    while (!to_visit.empty()) {
+        auto current = to_visit.front();
+        to_visit.pop();
+        
+        std::vector<ir::BlockPtr> next_blocks;
+        switch (current->jump.type) {
+            case ir::Jump::JNZ:
+                next_blocks.push_back(current->jump.blk[1]);
+                // fall through
+            case ir::Jump::JMP:
+                next_blocks.push_back(current->jump.blk[0]);
+                break;
+            case ir::Jump::RET:
+                continue;
+            default:
+                throw std::logic_error("invalid jump type");
+        }
+
+        for (auto next : next_blocks) {
+            if (reachable.insert(next).second) {
+                to_visit.push(next);
+            }
+        }
+    }
     return reachable;
 }
 

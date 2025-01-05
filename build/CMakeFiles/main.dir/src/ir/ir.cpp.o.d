@@ -1,8 +1,6 @@
-CMakeFiles/main.dir/src/ir/ir.cpp.o: \
- /workData/T202410006203374-422/src/ir/ir.cpp /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/ir/ir.h \
- /workData/T202410006203374-422/include/utils.h \
- /usr/include/c++/11/iostream \
+CMakeFiles/main.dir/src/ir/ir.cpp.o: /ws/Compiler/src/ir/ir.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/ir/ir.h \
+ /ws/Compiler/include/utils.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -179,8 +177,7 @@ CMakeFiles/main.dir/src/ir/ir.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /workData/T202410006203374-422/include/ir/ops.h \
+ /usr/include/c++/11/bits/vector.tcc /ws/Compiler/include/ir/ops.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h /usr/include/c++/11/ctime \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
@@ -189,4 +186,4 @@ CMakeFiles/main.dir/src/ir/ir.cpp.o: \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
  /usr/include/c++/11/bits/quoted_string.h /usr/include/c++/11/limits \
- /workData/T202410006203374-422/include/ir/ops.h
+ /ws/Compiler/include/ir/ops.h

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /workData/T202410006203374-422
+CMAKE_SOURCE_DIR = /ws/Compiler
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /workData/T202410006203374-422/build
+CMAKE_BINARY_DIR = /ws/Compiler/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main.dir/depend.make
@@ -72,324 +72,324 @@ include CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ast.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ast.cpp.o: ../src/ast.cpp
 CMakeFiles/main.dir/src/ast.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/ast.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ast.cpp.o -MF CMakeFiles/main.dir/src/ast.cpp.o.d -o CMakeFiles/main.dir/src/ast.cpp.o -c /workData/T202410006203374-422/src/ast.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main.dir/src/ast.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ast.cpp.o -MF CMakeFiles/main.dir/src/ast.cpp.o.d -o CMakeFiles/main.dir/src/ast.cpp.o -c /ws/Compiler/src/ast.cpp
 
 CMakeFiles/main.dir/src/ast.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ast.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/ast.cpp > CMakeFiles/main.dir/src/ast.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/ast.cpp > CMakeFiles/main.dir/src/ast.cpp.i
 
 CMakeFiles/main.dir/src/ast.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ast.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/ast.cpp -o CMakeFiles/main.dir/src/ast.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/ast.cpp -o CMakeFiles/main.dir/src/ast.cpp.s
 
 CMakeFiles/main.dir/src/error.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/error.cpp.o: ../src/error.cpp
 CMakeFiles/main.dir/src/error.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/error.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/error.cpp.o -MF CMakeFiles/main.dir/src/error.cpp.o.d -o CMakeFiles/main.dir/src/error.cpp.o -c /workData/T202410006203374-422/src/error.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/error.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/error.cpp.o -MF CMakeFiles/main.dir/src/error.cpp.o.d -o CMakeFiles/main.dir/src/error.cpp.o -c /ws/Compiler/src/error.cpp
 
 CMakeFiles/main.dir/src/error.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/error.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/error.cpp > CMakeFiles/main.dir/src/error.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/error.cpp > CMakeFiles/main.dir/src/error.cpp.i
 
 CMakeFiles/main.dir/src/error.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/error.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/error.cpp -o CMakeFiles/main.dir/src/error.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/error.cpp -o CMakeFiles/main.dir/src/error.cpp.s
 
 CMakeFiles/main.dir/src/ir/builder.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ir/builder.cpp.o: ../src/ir/builder.cpp
 CMakeFiles/main.dir/src/ir/builder.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/ir/builder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/builder.cpp.o -MF CMakeFiles/main.dir/src/ir/builder.cpp.o.d -o CMakeFiles/main.dir/src/ir/builder.cpp.o -c /workData/T202410006203374-422/src/ir/builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/ir/builder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/builder.cpp.o -MF CMakeFiles/main.dir/src/ir/builder.cpp.o.d -o CMakeFiles/main.dir/src/ir/builder.cpp.o -c /ws/Compiler/src/ir/builder.cpp
 
 CMakeFiles/main.dir/src/ir/builder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ir/builder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/ir/builder.cpp > CMakeFiles/main.dir/src/ir/builder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/ir/builder.cpp > CMakeFiles/main.dir/src/ir/builder.cpp.i
 
 CMakeFiles/main.dir/src/ir/builder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ir/builder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/ir/builder.cpp -o CMakeFiles/main.dir/src/ir/builder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/ir/builder.cpp -o CMakeFiles/main.dir/src/ir/builder.cpp.s
 
 CMakeFiles/main.dir/src/ir/folder.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ir/folder.cpp.o: ../src/ir/folder.cpp
 CMakeFiles/main.dir/src/ir/folder.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/ir/folder.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/folder.cpp.o -MF CMakeFiles/main.dir/src/ir/folder.cpp.o.d -o CMakeFiles/main.dir/src/ir/folder.cpp.o -c /workData/T202410006203374-422/src/ir/folder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/ir/folder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/folder.cpp.o -MF CMakeFiles/main.dir/src/ir/folder.cpp.o.d -o CMakeFiles/main.dir/src/ir/folder.cpp.o -c /ws/Compiler/src/ir/folder.cpp
 
 CMakeFiles/main.dir/src/ir/folder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ir/folder.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/ir/folder.cpp > CMakeFiles/main.dir/src/ir/folder.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/ir/folder.cpp > CMakeFiles/main.dir/src/ir/folder.cpp.i
 
 CMakeFiles/main.dir/src/ir/folder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ir/folder.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/ir/folder.cpp -o CMakeFiles/main.dir/src/ir/folder.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/ir/folder.cpp -o CMakeFiles/main.dir/src/ir/folder.cpp.s
 
 CMakeFiles/main.dir/src/ir/ir.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/ir/ir.cpp.o: ../src/ir/ir.cpp
 CMakeFiles/main.dir/src/ir/ir.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/ir/ir.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/ir.cpp.o -MF CMakeFiles/main.dir/src/ir/ir.cpp.o.d -o CMakeFiles/main.dir/src/ir/ir.cpp.o -c /workData/T202410006203374-422/src/ir/ir.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/ir/ir.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/ir/ir.cpp.o -MF CMakeFiles/main.dir/src/ir/ir.cpp.o.d -o CMakeFiles/main.dir/src/ir/ir.cpp.o -c /ws/Compiler/src/ir/ir.cpp
 
 CMakeFiles/main.dir/src/ir/ir.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/ir/ir.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/ir/ir.cpp > CMakeFiles/main.dir/src/ir/ir.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/ir/ir.cpp > CMakeFiles/main.dir/src/ir/ir.cpp.i
 
 CMakeFiles/main.dir/src/ir/ir.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/ir/ir.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/ir/ir.cpp -o CMakeFiles/main.dir/src/ir/ir.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/ir/ir.cpp -o CMakeFiles/main.dir/src/ir/ir.cpp.s
 
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/main.cpp.o: ../src/main.cpp
 CMakeFiles/main.dir/src/main.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /workData/T202410006203374-422/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/main.cpp.o -MF CMakeFiles/main.dir/src/main.cpp.o.d -o CMakeFiles/main.dir/src/main.cpp.o -c /ws/Compiler/src/main.cpp
 
 CMakeFiles/main.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/main.cpp > CMakeFiles/main.dir/src/main.cpp.i
 
 CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/main.cpp -o CMakeFiles/main.dir/src/main.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o: ../src/opt/pass/cfg.cpp
 CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o -c /workData/T202410006203374-422/src/opt/pass/cfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/cfg.cpp.o -c /ws/Compiler/src/opt/pass/cfg.cpp
 
 CMakeFiles/main.dir/src/opt/pass/cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/cfg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/cfg.cpp > CMakeFiles/main.dir/src/opt/pass/cfg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/cfg.cpp > CMakeFiles/main.dir/src/opt/pass/cfg.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/cfg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/cfg.cpp -o CMakeFiles/main.dir/src/opt/pass/cfg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/cfg.cpp -o CMakeFiles/main.dir/src/opt/pass/cfg.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/dead.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/dead.cpp.o: ../src/opt/pass/dead.cpp
 CMakeFiles/main.dir/src/opt/pass/dead.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/opt/pass/dead.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/dead.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/dead.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/dead.cpp.o -c /workData/T202410006203374-422/src/opt/pass/dead.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/opt/pass/dead.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/dead.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/dead.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/dead.cpp.o -c /ws/Compiler/src/opt/pass/dead.cpp
 
 CMakeFiles/main.dir/src/opt/pass/dead.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/dead.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/dead.cpp > CMakeFiles/main.dir/src/opt/pass/dead.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/dead.cpp > CMakeFiles/main.dir/src/opt/pass/dead.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/dead.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/dead.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/dead.cpp -o CMakeFiles/main.dir/src/opt/pass/dead.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/dead.cpp -o CMakeFiles/main.dir/src/opt/pass/dead.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/func.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/func.cpp.o: ../src/opt/pass/func.cpp
 CMakeFiles/main.dir/src/opt/pass/func.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/opt/pass/func.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/func.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/func.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/func.cpp.o -c /workData/T202410006203374-422/src/opt/pass/func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/opt/pass/func.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/func.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/func.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/func.cpp.o -c /ws/Compiler/src/opt/pass/func.cpp
 
 CMakeFiles/main.dir/src/opt/pass/func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/func.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/func.cpp > CMakeFiles/main.dir/src/opt/pass/func.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/func.cpp > CMakeFiles/main.dir/src/opt/pass/func.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/func.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/func.cpp -o CMakeFiles/main.dir/src/opt/pass/func.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/func.cpp -o CMakeFiles/main.dir/src/opt/pass/func.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o: ../src/opt/pass/gvn.cpp
 CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o -c /workData/T202410006203374-422/src/opt/pass/gvn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/gvn.cpp.o -c /ws/Compiler/src/opt/pass/gvn.cpp
 
 CMakeFiles/main.dir/src/opt/pass/gvn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/gvn.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/gvn.cpp > CMakeFiles/main.dir/src/opt/pass/gvn.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/gvn.cpp > CMakeFiles/main.dir/src/opt/pass/gvn.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/gvn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/gvn.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/gvn.cpp -o CMakeFiles/main.dir/src/opt/pass/gvn.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/gvn.cpp -o CMakeFiles/main.dir/src/opt/pass/gvn.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/live.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/live.cpp.o: ../src/opt/pass/live.cpp
 CMakeFiles/main.dir/src/opt/pass/live.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/opt/pass/live.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/live.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/live.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/live.cpp.o -c /workData/T202410006203374-422/src/opt/pass/live.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/opt/pass/live.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/live.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/live.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/live.cpp.o -c /ws/Compiler/src/opt/pass/live.cpp
 
 CMakeFiles/main.dir/src/opt/pass/live.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/live.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/live.cpp > CMakeFiles/main.dir/src/opt/pass/live.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/live.cpp > CMakeFiles/main.dir/src/opt/pass/live.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/live.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/live.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/live.cpp -o CMakeFiles/main.dir/src/opt/pass/live.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/live.cpp -o CMakeFiles/main.dir/src/opt/pass/live.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/loop.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/loop.cpp.o: ../src/opt/pass/loop.cpp
 CMakeFiles/main.dir/src/opt/pass/loop.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/opt/pass/loop.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/loop.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/loop.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/loop.cpp.o -c /workData/T202410006203374-422/src/opt/pass/loop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/opt/pass/loop.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/loop.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/loop.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/loop.cpp.o -c /ws/Compiler/src/opt/pass/loop.cpp
 
 CMakeFiles/main.dir/src/opt/pass/loop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/loop.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/loop.cpp > CMakeFiles/main.dir/src/opt/pass/loop.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/loop.cpp > CMakeFiles/main.dir/src/opt/pass/loop.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/loop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/loop.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/loop.cpp -o CMakeFiles/main.dir/src/opt/pass/loop.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/loop.cpp -o CMakeFiles/main.dir/src/opt/pass/loop.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/propa.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/propa.cpp.o: ../src/opt/pass/propa.cpp
 CMakeFiles/main.dir/src/opt/pass/propa.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/opt/pass/propa.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/propa.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/propa.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/propa.cpp.o -c /workData/T202410006203374-422/src/opt/pass/propa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/opt/pass/propa.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/propa.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/propa.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/propa.cpp.o -c /ws/Compiler/src/opt/pass/propa.cpp
 
 CMakeFiles/main.dir/src/opt/pass/propa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/propa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/propa.cpp > CMakeFiles/main.dir/src/opt/pass/propa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/propa.cpp > CMakeFiles/main.dir/src/opt/pass/propa.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/propa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/propa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/propa.cpp -o CMakeFiles/main.dir/src/opt/pass/propa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/propa.cpp -o CMakeFiles/main.dir/src/opt/pass/propa.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o: ../src/opt/pass/simplify_cfg.cpp
 CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o -c /workData/T202410006203374-422/src/opt/pass/simplify_cfg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.o -c /ws/Compiler/src/opt/pass/simplify_cfg.cpp
 
 CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/simplify_cfg.cpp > CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/simplify_cfg.cpp > CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/simplify_cfg.cpp -o CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/simplify_cfg.cpp -o CMakeFiles/main.dir/src/opt/pass/simplify_cfg.cpp.s
 
 CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o: ../src/opt/pass/ssa.cpp
 CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o -c /workData/T202410006203374-422/src/opt/pass/ssa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o -MF CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o.d -o CMakeFiles/main.dir/src/opt/pass/ssa.cpp.o -c /ws/Compiler/src/opt/pass/ssa.cpp
 
 CMakeFiles/main.dir/src/opt/pass/ssa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/opt/pass/ssa.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/opt/pass/ssa.cpp > CMakeFiles/main.dir/src/opt/pass/ssa.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/opt/pass/ssa.cpp > CMakeFiles/main.dir/src/opt/pass/ssa.cpp.i
 
 CMakeFiles/main.dir/src/opt/pass/ssa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/opt/pass/ssa.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/opt/pass/ssa.cpp -o CMakeFiles/main.dir/src/opt/pass/ssa.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/opt/pass/ssa.cpp -o CMakeFiles/main.dir/src/opt/pass/ssa.cpp.s
 
 CMakeFiles/main.dir/src/parser.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/parser.cpp.o: ../src/parser.cpp
 CMakeFiles/main.dir/src/parser.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/parser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser.cpp.o -MF CMakeFiles/main.dir/src/parser.cpp.o.d -o CMakeFiles/main.dir/src/parser.cpp.o -c /workData/T202410006203374-422/src/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/main.dir/src/parser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/parser.cpp.o -MF CMakeFiles/main.dir/src/parser.cpp.o.d -o CMakeFiles/main.dir/src/parser.cpp.o -c /ws/Compiler/src/parser.cpp
 
 CMakeFiles/main.dir/src/parser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/parser.cpp > CMakeFiles/main.dir/src/parser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/parser.cpp > CMakeFiles/main.dir/src/parser.cpp.i
 
 CMakeFiles/main.dir/src/parser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/parser.cpp -o CMakeFiles/main.dir/src/parser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/parser.cpp -o CMakeFiles/main.dir/src/parser.cpp.s
 
 CMakeFiles/main.dir/src/scanner.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/scanner.cpp.o: ../src/scanner.cpp
 CMakeFiles/main.dir/src/scanner.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/scanner.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/scanner.cpp.o -MF CMakeFiles/main.dir/src/scanner.cpp.o.d -o CMakeFiles/main.dir/src/scanner.cpp.o -c /workData/T202410006203374-422/src/scanner.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/main.dir/src/scanner.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/scanner.cpp.o -MF CMakeFiles/main.dir/src/scanner.cpp.o.d -o CMakeFiles/main.dir/src/scanner.cpp.o -c /ws/Compiler/src/scanner.cpp
 
 CMakeFiles/main.dir/src/scanner.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/scanner.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/scanner.cpp > CMakeFiles/main.dir/src/scanner.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/scanner.cpp > CMakeFiles/main.dir/src/scanner.cpp.i
 
 CMakeFiles/main.dir/src/scanner.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/scanner.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/scanner.cpp -o CMakeFiles/main.dir/src/scanner.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/scanner.cpp -o CMakeFiles/main.dir/src/scanner.cpp.s
 
 CMakeFiles/main.dir/src/sym/type.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/sym/type.cpp.o: ../src/sym/type.cpp
 CMakeFiles/main.dir/src/sym/type.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/src/sym/type.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sym/type.cpp.o -MF CMakeFiles/main.dir/src/sym/type.cpp.o.d -o CMakeFiles/main.dir/src/sym/type.cpp.o -c /workData/T202410006203374-422/src/sym/type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/main.dir/src/sym/type.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/sym/type.cpp.o -MF CMakeFiles/main.dir/src/sym/type.cpp.o.d -o CMakeFiles/main.dir/src/sym/type.cpp.o -c /ws/Compiler/src/sym/type.cpp
 
 CMakeFiles/main.dir/src/sym/type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/sym/type.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/sym/type.cpp > CMakeFiles/main.dir/src/sym/type.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/sym/type.cpp > CMakeFiles/main.dir/src/sym/type.cpp.i
 
 CMakeFiles/main.dir/src/sym/type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/sym/type.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/sym/type.cpp -o CMakeFiles/main.dir/src/sym/type.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/sym/type.cpp -o CMakeFiles/main.dir/src/sym/type.cpp.s
 
 CMakeFiles/main.dir/src/target/generator.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/target/generator.cpp.o: ../src/target/generator.cpp
 CMakeFiles/main.dir/src/target/generator.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/src/target/generator.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/generator.cpp.o -MF CMakeFiles/main.dir/src/target/generator.cpp.o.d -o CMakeFiles/main.dir/src/target/generator.cpp.o -c /workData/T202410006203374-422/src/target/generator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/main.dir/src/target/generator.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/generator.cpp.o -MF CMakeFiles/main.dir/src/target/generator.cpp.o.d -o CMakeFiles/main.dir/src/target/generator.cpp.o -c /ws/Compiler/src/target/generator.cpp
 
 CMakeFiles/main.dir/src/target/generator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/target/generator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/target/generator.cpp > CMakeFiles/main.dir/src/target/generator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/target/generator.cpp > CMakeFiles/main.dir/src/target/generator.cpp.i
 
 CMakeFiles/main.dir/src/target/generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/target/generator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/target/generator.cpp -o CMakeFiles/main.dir/src/target/generator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/target/generator.cpp -o CMakeFiles/main.dir/src/target/generator.cpp.s
 
 CMakeFiles/main.dir/src/target/mem.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/target/mem.cpp.o: ../src/target/mem.cpp
 CMakeFiles/main.dir/src/target/mem.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/src/target/mem.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/mem.cpp.o -MF CMakeFiles/main.dir/src/target/mem.cpp.o.d -o CMakeFiles/main.dir/src/target/mem.cpp.o -c /workData/T202410006203374-422/src/target/mem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/main.dir/src/target/mem.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/mem.cpp.o -MF CMakeFiles/main.dir/src/target/mem.cpp.o.d -o CMakeFiles/main.dir/src/target/mem.cpp.o -c /ws/Compiler/src/target/mem.cpp
 
 CMakeFiles/main.dir/src/target/mem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/target/mem.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/target/mem.cpp > CMakeFiles/main.dir/src/target/mem.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/target/mem.cpp > CMakeFiles/main.dir/src/target/mem.cpp.i
 
 CMakeFiles/main.dir/src/target/mem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/target/mem.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/target/mem.cpp -o CMakeFiles/main.dir/src/target/mem.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/target/mem.cpp -o CMakeFiles/main.dir/src/target/mem.cpp.s
 
 CMakeFiles/main.dir/src/target/peephole.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/target/peephole.cpp.o: ../src/target/peephole.cpp
 CMakeFiles/main.dir/src/target/peephole.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/src/target/peephole.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/peephole.cpp.o -MF CMakeFiles/main.dir/src/target/peephole.cpp.o.d -o CMakeFiles/main.dir/src/target/peephole.cpp.o -c /workData/T202410006203374-422/src/target/peephole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/main.dir/src/target/peephole.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/peephole.cpp.o -MF CMakeFiles/main.dir/src/target/peephole.cpp.o.d -o CMakeFiles/main.dir/src/target/peephole.cpp.o -c /ws/Compiler/src/target/peephole.cpp
 
 CMakeFiles/main.dir/src/target/peephole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/target/peephole.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/target/peephole.cpp > CMakeFiles/main.dir/src/target/peephole.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/target/peephole.cpp > CMakeFiles/main.dir/src/target/peephole.cpp.i
 
 CMakeFiles/main.dir/src/target/peephole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/target/peephole.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/target/peephole.cpp -o CMakeFiles/main.dir/src/target/peephole.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/target/peephole.cpp -o CMakeFiles/main.dir/src/target/peephole.cpp.s
 
 CMakeFiles/main.dir/src/target/regalloc.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/target/regalloc.cpp.o: ../src/target/regalloc.cpp
 CMakeFiles/main.dir/src/target/regalloc.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/src/target/regalloc.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/regalloc.cpp.o -MF CMakeFiles/main.dir/src/target/regalloc.cpp.o.d -o CMakeFiles/main.dir/src/target/regalloc.cpp.o -c /workData/T202410006203374-422/src/target/regalloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/main.dir/src/target/regalloc.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/target/regalloc.cpp.o -MF CMakeFiles/main.dir/src/target/regalloc.cpp.o.d -o CMakeFiles/main.dir/src/target/regalloc.cpp.o -c /ws/Compiler/src/target/regalloc.cpp
 
 CMakeFiles/main.dir/src/target/regalloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/target/regalloc.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/target/regalloc.cpp > CMakeFiles/main.dir/src/target/regalloc.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/target/regalloc.cpp > CMakeFiles/main.dir/src/target/regalloc.cpp.i
 
 CMakeFiles/main.dir/src/target/regalloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/target/regalloc.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/target/regalloc.cpp -o CMakeFiles/main.dir/src/target/regalloc.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/target/regalloc.cpp -o CMakeFiles/main.dir/src/target/regalloc.cpp.s
 
 CMakeFiles/main.dir/src/vistor.cpp.o: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/vistor.cpp.o: ../src/vistor.cpp
 CMakeFiles/main.dir/src/vistor.cpp.o: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/src/vistor.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vistor.cpp.o -MF CMakeFiles/main.dir/src/vistor.cpp.o.d -o CMakeFiles/main.dir/src/vistor.cpp.o -c /workData/T202410006203374-422/src/vistor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/main.dir/src/vistor.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/vistor.cpp.o -MF CMakeFiles/main.dir/src/vistor.cpp.o.d -o CMakeFiles/main.dir/src/vistor.cpp.o -c /ws/Compiler/src/vistor.cpp
 
 CMakeFiles/main.dir/src/vistor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/src/vistor.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /workData/T202410006203374-422/src/vistor.cpp > CMakeFiles/main.dir/src/vistor.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /ws/Compiler/src/vistor.cpp > CMakeFiles/main.dir/src/vistor.cpp.i
 
 CMakeFiles/main.dir/src/vistor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/vistor.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /workData/T202410006203374-422/src/vistor.cpp -o CMakeFiles/main.dir/src/vistor.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /ws/Compiler/src/vistor.cpp -o CMakeFiles/main.dir/src/vistor.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -445,7 +445,7 @@ main: CMakeFiles/main.dir/src/target/regalloc.cpp.o
 main: CMakeFiles/main.dir/src/vistor.cpp.o
 main: CMakeFiles/main.dir/build.make
 main: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/workData/T202410006203374-422/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/ws/Compiler/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable main"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -457,6 +457,6 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 CMakeFiles/main.dir/depend:
-	cd /workData/T202410006203374-422/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /workData/T202410006203374-422 /workData/T202410006203374-422 /workData/T202410006203374-422/build /workData/T202410006203374-422/build /workData/T202410006203374-422/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
+	cd /ws/Compiler/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /ws/Compiler /ws/Compiler /ws/Compiler/build /ws/Compiler/build /ws/Compiler/build/CMakeFiles/main.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main.dir/depend
 

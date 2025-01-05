@@ -1,4 +1,4 @@
-# Install script for directory: /workData/T202410006203374-422
+# Install script for directory: /ws/Compiler
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/workData/T202410006203374-422/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/ws/Compiler/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

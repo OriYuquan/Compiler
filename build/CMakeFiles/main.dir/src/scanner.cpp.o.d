@@ -1,5 +1,4 @@
-CMakeFiles/main.dir/src/scanner.cpp.o: \
- /workData/T202410006203374-422/src/scanner.cpp \
+CMakeFiles/main.dir/src/scanner.cpp.o: /ws/Compiler/src/scanner.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -61,9 +60,8 @@ CMakeFiles/main.dir/src/scanner.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h /usr/include/alloca.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/11/bits/std_abs.h \
- /workData/T202410006203374-422/include/parser.h \
- /workData/T202410006203374-422/include/ast.h /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/std_abs.h /ws/Compiler/include/parser.h \
+ /ws/Compiler/include/ast.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/c++/11/bits/functexcept.h \
  /usr/include/c++/11/bits/exception_defines.h \
@@ -171,9 +169,8 @@ CMakeFiles/main.dir/src/scanner.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /workData/T202410006203374-422/include/error.h /usr/include/unistd.h \
- /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+ /usr/include/c++/11/bits/vector.tcc /ws/Compiler/include/error.h \
+ /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \

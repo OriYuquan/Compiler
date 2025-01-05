@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/workData/T202410006203374-422/include -I/workData/T202410006203374-422/include/ir -I/workData/T202410006203374-422/include/opt/pass -I/workData/T202410006203374-422/include/sym -I/workData/T202410006203374-422/include/target
+CXX_INCLUDES = -I/ws/Compiler/include -I/ws/Compiler/include/ir -I/ws/Compiler/include/opt/pass -I/ws/Compiler/include/sym -I/ws/Compiler/include/target
 
 CXX_FLAGS = 
 

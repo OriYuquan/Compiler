@@ -1,10 +1,7 @@
 CMakeFiles/main.dir/src/target/generator.cpp.o: \
- /workData/T202410006203374-422/src/target/generator.cpp \
- /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/target/generator.h \
- /workData/T202410006203374-422/include/ir/ir.h \
- /workData/T202410006203374-422/include/utils.h \
- /usr/include/c++/11/iostream \
+ /ws/Compiler/src/target/generator.cpp /usr/include/stdc-predef.h \
+ /ws/Compiler/include/target/generator.h /ws/Compiler/include/ir/ir.h \
+ /ws/Compiler/include/utils.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -181,10 +178,8 @@ CMakeFiles/main.dir/src/target/generator.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /workData/T202410006203374-422/include/ir/ops.h \
- /workData/T202410006203374-422/include/target/mem.h \
- /workData/T202410006203374-422/include/target/peephole.h \
+ /usr/include/c++/11/bits/vector.tcc /ws/Compiler/include/ir/ops.h \
+ /ws/Compiler/include/target/mem.h /ws/Compiler/include/target/peephole.h \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/functional \
  /usr/include/c++/11/bits/std_function.h \
@@ -218,5 +213,5 @@ CMakeFiles/main.dir/src/target/generator.cpp.o: \
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /workData/T202410006203374-422/include/target/regalloc.h \
- /workData/T202410006203374-422/include/target/utils.h
+ /ws/Compiler/include/target/regalloc.h \
+ /ws/Compiler/include/target/utils.h

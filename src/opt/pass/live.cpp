@@ -23,56 +23,42 @@ bool opt::LivenessAnalysisPass::run_on_function(ir::Function &func) {
 
     return false;
 }
-
+//plan1
 void LivenessAnalysisPass::_init_live_use_def(ir::Block &block) {
-    // use set is useless
     auto &live_use = block.live_in;
 
-    // phis
+    // Helper function to check and insert into live_use
+    auto addToLiveUseIfNotDef = [&](const std::shared_ptr<ir::Temp>& temp) {
+        if (temp && block.live_def.find(temp) == block.live_def.end()) {
+            live_use.insert(temp);
+        }
+    };
+
+    // Process PHI instructions
     for (auto phi : block.phis) {
-        for (auto [_, value] : phi->args) {
+        for (const auto& [_, value] : phi->args) {
             if (auto temp = std::dynamic_pointer_cast<ir::Temp>(value)) {
-                if (block.live_def.find(temp) ==
-                    block.live_def.end()) { // if not def, then use
-                    live_use.insert(temp);
-                }
+                addToLiveUseIfNotDef(temp);
             }
         }
-        if (live_use.find(phi->to) == live_use.end()) { // if not use, then def
+        if (live_use.find(phi->to) == live_use.end()) { // if not use, insert definition
             block.live_def.insert(phi->to);
         }
     }
 
-    // insts
+    // Process instructions
     for (auto inst : block.insts) {
-        if (auto temp = std::dynamic_pointer_cast<ir::Temp>(inst->arg[0])) {
-            if (block.live_def.find(temp) ==
-                block.live_def.end()) { // if not def, then use
-                live_use.insert(temp);
-            }
-        }
-        if (auto temp = std::dynamic_pointer_cast<ir::Temp>(
-                inst->arg[1])) { // if not def, then use
-            if (block.live_def.find(temp) == block.live_def.end()) {
-                live_use.insert(temp);
-            }
-        }
-        if (inst->to) {
-            if (live_use.find(inst->to) ==
-                live_use.end()) { // if not use, then def
-                block.live_def.insert(inst->to);
-            }
+        addToLiveUseIfNotDef(std::dynamic_pointer_cast<ir::Temp>(inst->arg[0]));
+        addToLiveUseIfNotDef(std::dynamic_pointer_cast<ir::Temp>(inst->arg[1]));
+        
+        if (inst->to && live_use.find(inst->to) == live_use.end()) {
+            block.live_def.insert(inst->to);
         }
     }
 
-    // jump
+    // Handle jumps
     if (block.jump.type == ir::Jump::JNZ || block.jump.type == ir::Jump::RET) {
-        if (auto temp = std::dynamic_pointer_cast<ir::Temp>(block.jump.arg)) {
-            if (block.live_def.find(temp) ==
-                block.live_def.end()) { // if not def, then use
-                live_use.insert(temp);
-            }
-        }
+        addToLiveUseIfNotDef(std::dynamic_pointer_cast<ir::Temp>(block.jump.arg));
     }
 }
 

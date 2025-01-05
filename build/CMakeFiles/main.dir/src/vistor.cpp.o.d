@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/src/vistor.cpp.o: \
- /workData/T202410006203374-422/src/vistor.cpp /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/ast.h /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_algobase.h \
+CMakeFiles/main.dir/src/vistor.cpp.o: /ws/Compiler/src/vistor.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/ast.h \
+ /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -168,26 +167,20 @@ CMakeFiles/main.dir/src/vistor.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /workData/T202410006203374-422/include/error.h \
- /workData/T202410006203374-422/include/utils.h \
- /workData/T202410006203374-422/include/visitor.h \
- /workData/T202410006203374-422/include/ir/builder.h \
- /workData/T202410006203374-422/include/ir/folder.h \
- /workData/T202410006203374-422/include/ir/ir.h \
- /usr/include/c++/11/iostream /usr/include/c++/11/istream \
- /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/vector.tcc /ws/Compiler/include/error.h \
+ /ws/Compiler/include/utils.h /ws/Compiler/include/visitor.h \
+ /ws/Compiler/include/ir/builder.h /ws/Compiler/include/ir/folder.h \
+ /ws/Compiler/include/ir/ir.h /usr/include/c++/11/iostream \
+ /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
+ /usr/include/c++/11/sstream /usr/include/c++/11/bits/sstream.tcc \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
- /workData/T202410006203374-422/include/ir/ops.h \
+ /usr/include/c++/11/bits/unordered_set.h /ws/Compiler/include/ir/ops.h \
  /usr/include/c++/11/cassert /usr/include/assert.h \
- /workData/T202410006203374-422/include/sym/symbol.h \
- /workData/T202410006203374-422/include/sym/type.h \
+ /ws/Compiler/include/sym/symbol.h /ws/Compiler/include/sym/type.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/stack \

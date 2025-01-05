@@ -1,7 +1,5 @@
-CMakeFiles/main.dir/src/sym/type.cpp.o: \
- /workData/T202410006203374-422/src/sym/type.cpp \
- /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/sym/type.h \
+CMakeFiles/main.dir/src/sym/type.cpp.o: /ws/Compiler/src/sym/type.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/sym/type.h \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

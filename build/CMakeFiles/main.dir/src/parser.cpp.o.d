@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/src/parser.cpp.o: \
- /workData/T202410006203374-422/src/parser.cpp /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/parser.h \
- /workData/T202410006203374-422/include/ast.h /usr/include/c++/11/memory \
+CMakeFiles/main.dir/src/parser.cpp.o: /ws/Compiler/src/parser.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/parser.h \
+ /ws/Compiler/include/ast.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -171,6 +170,5 @@ CMakeFiles/main.dir/src/parser.cpp.o: \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/iostream \
  /usr/include/c++/11/istream /usr/include/c++/11/bits/istream.tcc \
- /workData/T202410006203374-422/include/error.h \
- /usr/include/c++/11/stdlib.h /usr/include/string.h \
- /usr/include/strings.h /usr/include/setjmp.h
+ /ws/Compiler/include/error.h /usr/include/c++/11/stdlib.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/setjmp.h

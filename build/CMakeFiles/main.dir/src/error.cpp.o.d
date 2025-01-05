@@ -1,6 +1,5 @@
-CMakeFiles/main.dir/src/error.cpp.o: \
- /workData/T202410006203374-422/src/error.cpp /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/error.h \
+CMakeFiles/main.dir/src/error.cpp.o: /ws/Compiler/src/error.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/error.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

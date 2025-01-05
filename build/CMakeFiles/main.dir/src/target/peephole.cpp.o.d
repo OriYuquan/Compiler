@@ -1,8 +1,7 @@
 CMakeFiles/main.dir/src/target/peephole.cpp.o: \
- /workData/T202410006203374-422/src/target/peephole.cpp \
- /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/target/peephole.h \
- /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_algobase.h \
+ /ws/Compiler/src/target/peephole.cpp /usr/include/stdc-predef.h \
+ /ws/Compiler/include/target/peephole.h /usr/include/c++/11/deque \
+ /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -171,5 +170,4 @@ CMakeFiles/main.dir/src/target/peephole.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
  /usr/include/c++/11/bits/locale_facets.tcc \
  /usr/include/c++/11/bits/basic_ios.tcc \
- /usr/include/c++/11/bits/ostream.tcc \
- /workData/T202410006203374-422/include/target/utils.h
+ /usr/include/c++/11/bits/ostream.tcc /ws/Compiler/include/target/utils.h

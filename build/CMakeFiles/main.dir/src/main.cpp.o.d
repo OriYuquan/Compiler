@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/src/main.cpp.o: \
- /workData/T202410006203374-422/src/main.cpp /usr/include/stdc-predef.h \
- /workData/T202410006203374-422/include/ast.h /usr/include/c++/11/memory \
- /usr/include/c++/11/bits/stl_algobase.h \
+CMakeFiles/main.dir/src/main.cpp.o: /ws/Compiler/src/main.cpp \
+ /usr/include/stdc-predef.h /ws/Compiler/include/ast.h \
+ /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -168,10 +167,8 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/vector \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /workData/T202410006203374-422/include/error.h \
- /workData/T202410006203374-422/include/ir/ir.h \
- /workData/T202410006203374-422/include/utils.h \
+ /usr/include/c++/11/bits/vector.tcc /ws/Compiler/include/error.h \
+ /ws/Compiler/include/ir/ir.h /ws/Compiler/include/utils.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/unordered_map \
@@ -180,30 +177,22 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/unordered_set \
- /usr/include/c++/11/bits/unordered_set.h \
- /workData/T202410006203374-422/include/ir/ops.h \
- /workData/T202410006203374-422/include/opt/pass/pass.h \
- /workData/T202410006203374-422/include/opt/pass/base.h \
- /workData/T202410006203374-422/include/opt/pass/cfg.h \
- /workData/T202410006203374-422/include/opt/pass/dead.h \
- /workData/T202410006203374-422/include/opt/pass/func.h \
- /workData/T202410006203374-422/include/opt/pass/gvn.h \
- /workData/T202410006203374-422/include/ir/folder.h \
- /workData/T202410006203374-422/include/opt/pass/live.h \
- /workData/T202410006203374-422/include/opt/pass/loop.h \
- /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/list.tcc \
- /workData/T202410006203374-422/include/opt/pass/propa.h \
- /workData/T202410006203374-422/include/opt/pass/simplify_cfg.h \
- /workData/T202410006203374-422/include/opt/pass/ssa.h \
- /usr/include/c++/11/stack /usr/include/c++/11/deque \
- /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
- /usr/include/c++/11/bits/stl_stack.h \
- /workData/T202410006203374-422/include/parser.h \
- /workData/T202410006203374-422/include/target/target.h \
- /workData/T202410006203374-422/include/target/generator.h \
- /workData/T202410006203374-422/include/target/mem.h \
- /workData/T202410006203374-422/include/target/peephole.h \
+ /usr/include/c++/11/bits/unordered_set.h /ws/Compiler/include/ir/ops.h \
+ /ws/Compiler/include/opt/pass/pass.h \
+ /ws/Compiler/include/opt/pass/base.h /ws/Compiler/include/opt/pass/cfg.h \
+ /ws/Compiler/include/opt/pass/dead.h \
+ /ws/Compiler/include/opt/pass/func.h /ws/Compiler/include/opt/pass/gvn.h \
+ /ws/Compiler/include/ir/folder.h /ws/Compiler/include/opt/pass/live.h \
+ /ws/Compiler/include/opt/pass/loop.h /usr/include/c++/11/list \
+ /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
+ /ws/Compiler/include/opt/pass/propa.h \
+ /ws/Compiler/include/opt/pass/simplify_cfg.h \
+ /ws/Compiler/include/opt/pass/ssa.h /usr/include/c++/11/stack \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/bits/stl_stack.h \
+ /ws/Compiler/include/parser.h /ws/Compiler/include/target/target.h \
+ /ws/Compiler/include/target/generator.h \
+ /ws/Compiler/include/target/mem.h /ws/Compiler/include/target/peephole.h \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
@@ -233,14 +222,12 @@ CMakeFiles/main.dir/src/main.cpp.o: \
  /usr/include/c++/11/tr1/riemann_zeta.tcc /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_tree.h /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /workData/T202410006203374-422/include/target/regalloc.h \
- /workData/T202410006203374-422/include/target/utils.h \
- /workData/T202410006203374-422/include/visitor.h \
- /workData/T202410006203374-422/include/ir/builder.h \
- /usr/include/c++/11/cassert /usr/include/assert.h \
- /workData/T202410006203374-422/include/sym/symbol.h \
- /workData/T202410006203374-422/include/sym/type.h \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_map.h \
+ /ws/Compiler/include/target/regalloc.h \
+ /ws/Compiler/include/target/utils.h /ws/Compiler/include/visitor.h \
+ /ws/Compiler/include/ir/builder.h /usr/include/c++/11/cassert \
+ /usr/include/assert.h /ws/Compiler/include/sym/symbol.h \
+ /ws/Compiler/include/sym/type.h /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/fstream \
  /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
